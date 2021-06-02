@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*  font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a102f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232b54;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff464;
+  /* position: fixed;
+  z-index: 1; */
+}
+
+/*
+#5465e4
+#3579ee
+#008af4
+#0099f5
+#00a7f4
+#00b4f0
+#00bfea
+#00bfea
+#46cae5
+#6bd4e1
+
+
+#5D2FDF
+#E000B0
+#FF237B
+#FF7C52
+#FFBF46
+#F9F871
+
+#D3849E
+
+background: rgb(93,47,223);
+background: linear-gradient(180deg, rgba(93,47,223,1) 0%, rgba(57,69,235,1) 100%); 
+
+*/
+
+/********************* cursor **/
+/* play with vars for different effets */
+/* :root {
+  --color-cursor: 220, 90, 90;
+  --cursor-outline-shade: 0.3;
+  --cursor-size: 10px;
+  --cursor-outline-size: 12px;
+} */
+
+/* a {
+  transition: 0.5s ease;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+} */
+
+/* #cursor-dot,
+#cursor-dot-outline {
+  z-index: 999;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+#cursor-dot {
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  background-color: rgba(var(--color-cursor), 1);
+}
+
+#cursor-dot-outline {
+  width: var(--cursor-outline-size);
+  height: var(--cursor-outline-size);
+  background-color: rgba(var(--color-cursor), var(--cursor-outline-shade));
+}
+ */
