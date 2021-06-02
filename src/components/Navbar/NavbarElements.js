@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 import { SIZE, COLOR } from "../../stylesConstantes";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-import { FaBars } from "react-icons/fa";
+/* import { FaBars } from "react-icons/fa"; */
 import { CgMenuRight } from "react-icons/cg";
 
 export const Nav = styled.nav`
