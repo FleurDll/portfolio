@@ -7,7 +7,15 @@ export const HomeContainer = styled.div`
     padding: 0 150px;
     cursor: none;
 
-    @media screen and (max-width: 900px) {
-        padding: 0 50px 0 80px;
+    @media screen and (max-width: 1080px) {
+        padding: 0 100px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 25px;
     }
 `;

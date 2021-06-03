@@ -63,3 +63,20 @@ export const SidebarLink = styled(LinkS)`
         color: #7BC8F0;
     }
 `;
+
+export const SidebarAnchor = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    color: ${COLOR.white};
+    cursor: pointer;
+
+    &:hover {
+        transition: 0.2s ease-in-out;
+        color: #7BC8F0;
+    }
+`;

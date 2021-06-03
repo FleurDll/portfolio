@@ -1,8 +1,9 @@
 import React from 'react';
+import Pdf from "../../../documents/CV-FLEUR DALLE.pdf";
 import Skills from "../Skills";
 import Years from "./Years";
 import Countries from "./Countries";
-import { AboutContainer, AboutPresentation, AboutWrapper, AboutTexts, TextsTop, AboutTitle, TextsBottom, AboutDescription, AboutTimeline, DescriptionSpan, TimelineCountries, TimelineAnimation, TimelineYears, TimeLineBar, TimeLineStop } from "./AboutElements";
+import { AboutContainer, AboutPresentation, ResumeButton, AboutWrapper, AboutTexts, TextsTop, AboutTitle, TextsBottom, AboutDescription, AboutTimeline, DescriptionSpan, TimelineCountries, TimelineAnimation, TimelineYears, TimeLineBar, TimeLineStop } from "./AboutElements";
 
 const About = ({ scrollDirection }) => {
     return (
@@ -28,6 +29,7 @@ const About = ({ scrollDirection }) => {
                             If not coding in front of my screen, you can find me being walked by my dog Hilda, on my bike, ​​or climbing houses in Assassin's Creed games.
                         </AboutDescription>
                     </TextsBottom>
+                    <ResumeButton href={Pdf} target="_blank" rel="noreferrer">Resume</ResumeButton>
                 </AboutTexts>
                 <AboutTimeline>
                     <TimelineCountries>

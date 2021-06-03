@@ -5,10 +5,10 @@ export const AboutContainer = styled.div`
     min-height: 100vh;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 `;
 
@@ -61,10 +61,30 @@ export const DescriptionSpan = styled.span`
     color: ${COLOR.yellow};
 `;
 
+export const ResumeButton = styled.a`
+    align-self: flex-start;
+    margin: 50px 0;
+    font-size: ${SIZE.md};
+    color: ${COLOR.white};
+    border: solid ${COLOR.white};
+    padding: 10px;
+    border-radius: ${SIZE.borderRadius};
+    background: ${COLOR.bg};
+
+    &:hover {
+        border-color: ${COLOR.grey};
+        color: ${COLOR.grey};
+    }
+`;
+
 export const AboutTimeline = styled.div`
     display: flex;
     justify-content: center;
     margin-left: 60px;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
 `;
 
 export const TimeLineBar = styled.div`
@@ -106,6 +126,10 @@ export const TimelineAnimation = styled.div`
     border-radius: 40px;
     animation: ${({ scrollDirection }) => scrollDirection === "down" && css`${styledAnimation} 5s ease-in-out`};
     animation: ${({ scrollDirection }) => scrollDirection === "up" && css`${styledAnimation} 5s ease-in-out`};
+
+    @media screen and (max-width: 768px) {
+        width: 8px;;
+    }
 `;
 
 const styledTimeline = css`
@@ -113,6 +137,10 @@ const styledTimeline = css`
     grid-template-rows: repeat(8, 80px);
     align-items: center;
     color: ${COLOR.grey};
+
+    @media screen and (max-width: 768px) {
+        font-size: ${SIZE.xxs};
+    }
 `;
 
 

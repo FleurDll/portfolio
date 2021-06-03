@@ -8,13 +8,22 @@ export const HeroContainer = styled.section`
     min-height: 100vh;
     max-width: 1000px;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        align-items: center;
+    }
 `;
 
 export const HeroTexts = styled.div`
 `;
 
 export const Heading = styled.div`
-    margin-bottom: 20px;
+    ${'' /* margin-bottom: 20px; */}
+    ${'' /* margin: auto; */}
+
+    @media screen and (max-width: 768px) {
+        
+    }
 `;
 
 export const HeroText1 = styled.p`

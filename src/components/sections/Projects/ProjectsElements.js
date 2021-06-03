@@ -5,7 +5,11 @@ export const ProjectsContainer = styled.div`
     min-height: 100vh;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
+
+    @media screen and (max-width: 768px) {
+        padding: 30px 0;
+    }
 `;
 
 export const ProjectsPresentation = styled.p`

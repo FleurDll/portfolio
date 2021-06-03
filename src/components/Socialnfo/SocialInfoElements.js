@@ -6,17 +6,13 @@ export const SocialInfoContainer = styled.div`
     width: 40px;
     position: fixed;
     bottom: 0px;
-    left: 40px;
+    left: 20px;
     right: auto;
     z-index: 10;
     color: ${COLOR.white};
 
-    ${'' /* @media screen and (max-width: 768px) {
-        left: 20px;
-    }
- */}
-    @media screen and (max-width: 900px) {
-        left: 4px;
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 `;
 

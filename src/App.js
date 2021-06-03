@@ -12,10 +12,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route to="/" render={props => (
-          <Home {...props} emailJSKey={emailJSKey} />
-        )} exact />
-        {/* <Route to="/" component={Home} /> */}
+        <Route path="/"
+          render={props => (
+            <Home {...props} emailJSKey={emailJSKey} />
+          )}
+          exact
+        />
       </Switch>
     </BrowserRouter>
   );

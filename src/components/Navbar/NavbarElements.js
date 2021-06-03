@@ -2,7 +2,6 @@ import styled, { css } from "styled-components";
 import { SIZE, COLOR } from "../../stylesConstantes";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
-/* import { FaBars } from "react-icons/fa"; */
 import { CgMenuRight } from "react-icons/cg";
 
 export const Nav = styled.nav`
@@ -94,6 +93,6 @@ export const NavLinkS = styled(LinkS)`
     ${styledLink};
 `;
 
-export const NavLinkRouter = styled(LinkR)`
+export const NavAnchor = styled.a`
     ${styledLink};
 `;

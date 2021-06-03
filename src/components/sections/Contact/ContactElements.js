@@ -5,10 +5,10 @@ export const ContactContainer = styled.div`
     ${'' /* min-height: 100vh; */}
     max-width: 1000px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 80px 0;
 
     @media screen and (max-width: 768px) {
-        padding: 50px 0;
+        padding: 30px 0;
     }
 `;
 
@@ -47,13 +47,12 @@ export const ContactForm = styled.div`
 `;
 
 export const ContactNameMail = styled.div`
-    ${'' /* border: solid;
-    width: 350px; */}
+    
 `;
 
 export const ContactInput = styled.input`
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
         width: 350px !important;
         margin: 0 0 10px 0 !important;
     }

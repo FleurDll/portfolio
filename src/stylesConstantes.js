@@ -26,5 +26,6 @@ export const SIZE = {
     md: "18px",
     sm: "16px",
     xs: "14px",
+    xxs: "12px",
     borderRadius: "0.5rem",
 };

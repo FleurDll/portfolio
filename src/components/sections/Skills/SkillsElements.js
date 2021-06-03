@@ -2,6 +2,10 @@ import styled, { keyframes } from "styled-components";
 
 export const SkillsContainer = styled.div`
     margin-top: 150px;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 50px;
+    }
 `;
 
 export const SkillsWrapper = styled.div`
@@ -16,6 +20,10 @@ export const Row = styled.div`
     width: 90%;
     margin: 0 auto;
     list-style: none;
+
+    @media screen and (max-width: 768px) {
+        display: grid;
+    }
 `;
 
 const movingSkill = keyframes`

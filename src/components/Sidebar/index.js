@@ -1,5 +1,6 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from "./SidebarElements";
+import Pdf from "../../documents/CV-FLEUR DALLE.pdf";
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarAnchor } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
     return (
@@ -12,7 +13,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
                     <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
                     <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
-                    <SidebarLink to="/resume" onClick={toggle}>Resume</SidebarLink>
+                    <SidebarAnchor href={Pdf} target="_blank" rel="noreferrer">Resume</SidebarAnchor>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

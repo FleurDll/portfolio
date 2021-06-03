@@ -5,15 +5,17 @@ import { ProjectsContainer, ProjectsPresentation, ProjectsWrapper, ProjectsTitle
 import ProjectCard from "../../ProjectCard";
 
 const Projects = () => {
+    const screenWidth = window.screen.width;
+
     useEffect(() => {
         AOS.init({
-            duration: 2000
+            duration: 1500
         });
         AOS.refresh();
     }, []);
 
     return (
-        <ProjectsContainer id="projects" data-aos="fade-up">
+        <ProjectsContainer id="projects" data-aos={screenWidth > 768 && "fade-up"}>
             <ProjectsPresentation>Projects</ProjectsPresentation>
             <ProjectsWrapper>
                 <ProjectsTitle>Professional</ProjectsTitle>
