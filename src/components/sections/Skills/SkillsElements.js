@@ -4,7 +4,7 @@ export const SkillsContainer = styled.div`
     margin-top: 150px;
 
     @media screen and (max-width: 768px) {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 `;
 
@@ -45,12 +45,26 @@ const movingSkill = keyframes`
 `;
 
 export const SkillElement = styled.p`
-    ${'' /* padding: 0px 0; */}
     text-align: center;
     position: abolute;
-    font-size: ${prop => prop.size};
+    font-size: ${prop => `${prop.size}px`};
     font-weight: bold;
     justify-self: center;
-    animation: ${movingSkill} 8s linear infinite;
+    animation: ${movingSkill} 9s linear infinite;
+    color: ${prop => prop.color};
+
+    @media screen and (max-width: 768px) {
+        animation: none;
+    }
+`;
+
+export const AllSkills = styled.div`
+    display: inline-block;
+    text-align: center;
+`;
+
+export const Skill = styled.p`
+    display: inline-block;
+    padding: 10px;
     color: ${prop => prop.color};
 `;

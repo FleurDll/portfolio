@@ -10,7 +10,7 @@ const override = css`
   border-color: "#fffa64";
 `;
 
-const Contact = ({ emailJSKey }) => {
+const Contact = ({ emailJSKey, language }) => {
     init(emailJSKey.user);
 
     const [name, setName] = useState("");
@@ -73,7 +73,7 @@ const Contact = ({ emailJSKey }) => {
     return (
         <ContactContainer id="contact">
             <ContactPresentation>Contact</ContactPresentation>
-            <ContactTitle>Let's get in touch!</ContactTitle>
+            <ContactTitle> {language ? "Let's get in touch!" : "Contactez moi !"} </ContactTitle>
             <ContactForm>
                 <div id="form" className="ui form big">
                     <ContactNameMail>

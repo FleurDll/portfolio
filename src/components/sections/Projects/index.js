@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { ProjectsContainer, ProjectsPresentation, ProjectsWrapper, ProjectsTitle } from "./ProjectsElements";
 import ProjectCard from "../../ProjectCard";
 
-const Projects = () => {
+const Projects = ({ language }) => {
     const screenWidth = window.screen.width;
 
     useEffect(() => {
@@ -16,9 +16,9 @@ const Projects = () => {
 
     return (
         <ProjectsContainer id="projects" data-aos={screenWidth > 768 && "fade-up"}>
-            <ProjectsPresentation>Projects</ProjectsPresentation>
+            <ProjectsPresentation>{language ? "Projects" : "Projets"}</ProjectsPresentation>
             <ProjectsWrapper>
-                <ProjectsTitle>Professional</ProjectsTitle>
+                <ProjectsTitle>{language ? "Professional" : "Professionnels"}</ProjectsTitle>
                 <ProjectCard
                     title="Real Estate"
                     description="Showcase website for a real estate agent. You can find what services she offers and all the properties that she sells. I build this website with an admin part where my client can independently change each text, photos and add / remove properties."
@@ -28,7 +28,7 @@ const Projects = () => {
                     img="realEstate"
                     first="text"
                 />
-                <ProjectsTitle>Personal</ProjectsTitle>
+                <ProjectsTitle>{language ? "Personal" : "Personnels"}</ProjectsTitle>
                 <ProjectCard
                     title="Workout Generator"
                     description="Each time I got ready for my workout, I would wrote down my list of exercises. I wanted to make my daily life easier and therefore create a generator of sports sessions. This generator draws from my exercise database and loads a custom workout that has a logic in the sequence of exercises."
@@ -62,3 +62,19 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+/* enTitle,
+                frTitle,
+                enDescription,
+                frDescription,
+                tools,
+                github,
+                link,
+                type,
+                image {
+                    asset->{
+                        _id,
+                        url
+                    }
+                } */

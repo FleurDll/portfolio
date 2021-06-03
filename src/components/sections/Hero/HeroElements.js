@@ -52,9 +52,6 @@ export const HeroText3 = styled.p`
     }
 `;
 
-export const SpanText = styled.span`
-`;
-
 export const Subtitle = styled.p`
     font-size: ${SIZE.lg};
     color: ${COLOR.grey};

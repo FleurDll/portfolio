@@ -31,11 +31,12 @@ export const NavLogo = styled(LinkR)`
     justify-self: flex-start;
     align-items: center;
     cursor: pointer;
-    font-size: ${SIZE.md};
+    font-size: ${SIZE.lg};
     color: ${COLOR.grey};
     font-weight: bold;
     text-decoration: none;
     padding: 10px 0;
+    font-family: 'Rubik', sans-serif;
 
     &:hover {
         color: ${COLOR.yellow};
@@ -95,4 +96,16 @@ export const NavLinkS = styled(LinkS)`
 
 export const NavAnchor = styled.a`
     ${styledLink};
+`;
+
+export const LanguageButton = styled.button`
+    ${styledLink};
+    border: none;
+    color: ${COLOR.white};
+    background: ${COLOR.bg};
+
+    &:hover {
+        border-bottom: none;
+        color: ${COLOR.grey};
+    }
 `;

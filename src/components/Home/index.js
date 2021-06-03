@@ -13,6 +13,7 @@ import Sidebar from '../Sidebar';
 const Home = ({ emailJSKey }) => {
     const [scrollDirection, setScrollDirection] = useState("");
     const [isOpen, setIsOpen] = useState(false);
+    const [language, setLanguage] = useState(true);
 
     useEffect(() => {
         const threshold = 0;
@@ -51,13 +52,13 @@ const Home = ({ emailJSKey }) => {
 
     return (
         <>
-            <Navbar scrollDirection={scrollDirection} toggle={toggle} />
-            <Sidebar toggle={toggle} isOpen={isOpen} />
+            <Navbar scrollDirection={scrollDirection} toggle={toggle} language={language} setLanguage={setLanguage} />
+            <Sidebar toggle={toggle} isOpen={isOpen} language={language} setLanguage={setLanguage} />
             <HomeContainer>
-                <Hero />
-                <About scrollDirection={scrollDirection} />
-                <Projects />
-                <Contact emailJSKey={emailJSKey} />
+                <Hero language={language} />
+                <About scrollDirection={scrollDirection} language={language} />
+                <Projects language={language} />
+                <Contact emailJSKey={emailJSKey} language={language} />
                 {screenWidth > 768 && <Cursor />}
                 <Footer />
             </HomeContainer>

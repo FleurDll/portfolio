@@ -2,13 +2,24 @@ import React from 'react';
 import FadeIn from 'react-fade-in';
 import { animateScroll as scroll } from "react-scroll";
 import Pdf from "../../documents/CV-FLEUR DALLE.pdf";
-import { Nav, NavContainer, NavLogo, NavMenu, NavItem, NavLinkS, MobileIcon, NavAnchor } from "./NavbarElements";
+import { Nav, NavContainer, NavLogo, NavMenu, NavItem, LanguageButton, NavLinkS, MobileIcon, NavAnchor } from "./NavbarElements";
 
 
-const Navbar = ({ toggle, scrollDirection }) => {
+const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
     const toggleHome = () => {
         scroll.scrollToTop();
     };
+
+    let text;
+
+    language ?
+        text = {
+            first: "About", seconde: "Projects", third: "Contact", fourth: "Resume", fith: "Fr"
+        }
+        :
+        text = {
+            first: "A Propos", seconde: "Projets", third: "Contact", fourth: "CV", fith: "En"
+        }
 
     return (
         <Nav scrollDirection={scrollDirection}>
@@ -16,26 +27,32 @@ const Navbar = ({ toggle, scrollDirection }) => {
                 <NavLogo to="/" onClick={toggleHome}>Fleur Dalle</NavLogo>
                 <MobileIcon onClick={toggle} />
                 <NavMenu>
+                    <FadeIn transitionDuration={1700}>
+                        <NavItem>
+                            <LanguageButton onClick={() => setLanguage(!language)}>{text.fith}</LanguageButton>
+                        </NavItem>
+                    </FadeIn>
                     <FadeIn transitionDuration={200}>
                         <NavItem>
-                            <NavLinkS to="about" smooth={true} duration={500} spy={true} exact="true">About</NavLinkS>
+                            <NavLinkS to="about" smooth={true} duration={500} spy={true} exact="true">{text.first}</NavLinkS>
                         </NavItem>
                     </FadeIn>
                     <FadeIn transitionDuration={700}>
                         <NavItem>
-                            <NavLinkS to="projects" smooth={true} duration={500} spy={true} exact="true">Projects</NavLinkS>
+                            <NavLinkS to="projects" smooth={true} duration={500} spy={true} exact="true">{text.seconde}</NavLinkS>
                         </NavItem>
                     </FadeIn>
                     <FadeIn transitionDuration={1200}>
                         <NavItem>
-                            <NavLinkS to="contact" smooth={true} duration={500} spy={true} exact="true">Contact</NavLinkS>
+                            <NavLinkS to="contact" smooth={true} duration={500} spy={true} exact="true">{text.third}</NavLinkS>
                         </NavItem>
                     </FadeIn>
                     <FadeIn transitionDuration={1700}>
                         <NavItem>
-                            <NavAnchor href={Pdf} target="_blank" rel="noreferrer">Resume</NavAnchor>
+                            <NavAnchor href={Pdf} target="_blank" rel="noreferrer">{text.fourth}</NavAnchor>
                         </NavItem>
                     </FadeIn>
+
                 </NavMenu>
             </NavContainer>
         </Nav>
