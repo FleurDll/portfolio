@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 import { COLOR } from "../../stylesConstantes";
@@ -47,8 +47,8 @@ export const SidebarMenu = styled.ul`
     }
 `;
 
-export const SidebarLink = styled(LinkS)`
-    display: flex;
+const styledItemSidebar = css`
+display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
@@ -64,19 +64,14 @@ export const SidebarLink = styled(LinkS)`
     }
 `;
 
-export const SidebarAnchor = styled.a`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    text-decoration: none;
-    list-style: none;
-    transition: 0.2s ease-in-out;
-    color: ${COLOR.white};
-    cursor: pointer;
+export const SidebarLink = styled(LinkS)`
+    ${styledItemSidebar};
+`;
 
-    &:hover {
-        transition: 0.2s ease-in-out;
-        color: #7BC8F0;
-    }
+export const SidebarAnchor = styled.a`
+    ${styledItemSidebar};
+`;
+
+export const SidebarLanguage = styled.p`
+    ${styledItemSidebar};
 `;

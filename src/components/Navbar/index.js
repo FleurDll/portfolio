@@ -1,7 +1,7 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import { animateScroll as scroll } from "react-scroll";
-import Pdf from "../../documents/CV-FLEUR DALLE.pdf";
+import Pdf from "../../documents/CV-V2.pdf";
 import { Nav, NavContainer, NavLogo, NavMenu, NavItem, LanguageButton, NavLinkS, MobileIcon, NavAnchor } from "./NavbarElements";
 
 
@@ -14,11 +14,11 @@ const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
 
     language ?
         text = {
-            first: "About", seconde: "Projects", third: "Contact", fourth: "Resume", fith: "Fr"
+            first: "About", seconde: "Projects", third: "Contact", fourth: "Resume", fith: "Français"
         }
         :
         text = {
-            first: "A Propos", seconde: "Projets", third: "Contact", fourth: "CV", fith: "En"
+            first: "A Propos", seconde: "Projets", third: "Contact", fourth: "CV", fith: "English"
         }
 
     return (
@@ -27,11 +27,6 @@ const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
                 <NavLogo to="/" onClick={toggleHome}>Fleur Dalle</NavLogo>
                 <MobileIcon onClick={toggle} />
                 <NavMenu>
-                    <FadeIn transitionDuration={1700}>
-                        <NavItem>
-                            <LanguageButton onClick={() => setLanguage(!language)}>{text.fith}</LanguageButton>
-                        </NavItem>
-                    </FadeIn>
                     <FadeIn transitionDuration={200}>
                         <NavItem>
                             <NavLinkS to="about" smooth={true} duration={500} spy={true} exact="true">{text.first}</NavLinkS>
@@ -52,7 +47,11 @@ const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
                             <NavAnchor href={Pdf} target="_blank" rel="noreferrer">{text.fourth}</NavAnchor>
                         </NavItem>
                     </FadeIn>
-
+                    <FadeIn transitionDuration={1700}>
+                        <NavItem>
+                            <LanguageButton onClick={() => setLanguage(!language)}>{text.fith}</LanguageButton>
+                        </NavItem>
+                    </FadeIn>
                 </NavMenu>
             </NavContainer>
         </Nav>
