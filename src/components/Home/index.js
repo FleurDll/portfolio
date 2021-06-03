@@ -47,6 +47,8 @@ const Home = ({ emailJSKey }) => {
         setIsOpen(!isOpen);
     };
 
+    const screenWidth = window.screen.width;
+
     return (
         <>
             <Navbar scrollDirection={scrollDirection} toggle={toggle} />
@@ -56,7 +58,7 @@ const Home = ({ emailJSKey }) => {
                 <About scrollDirection={scrollDirection} />
                 <Projects />
                 <Contact emailJSKey={emailJSKey} />
-                <Cursor />
+                {screenWidth > 768 && <Cursor />}
                 <Footer />
             </HomeContainer>
             <SocialInfo />

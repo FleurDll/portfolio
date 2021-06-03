@@ -3,6 +3,9 @@ import FadeIn from 'react-fade-in';
 import { HeroContainer, SpanText, Line, ScrollDown, HeroTexts, Heading, HeroText1, HeroText2, HeroText3, Subtitle } from "./HeroElements";
 
 const Hero = ({ scrollNav }) => {
+
+    const screenWidth = window.screen.width;
+
     return (
         <HeroContainer id="hero" scrollNav={scrollNav}>
             <HeroTexts>
@@ -19,7 +22,7 @@ const Hero = ({ scrollNav }) => {
                     </FadeIn>
                 </Heading>
             </HeroTexts>
-            <ScrollDown><Line></Line></ScrollDown>
+            {screenWidth > 480 && <ScrollDown><Line></Line></ScrollDown>}
         </HeroContainer>
     );
 };
