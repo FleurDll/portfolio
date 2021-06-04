@@ -33,7 +33,7 @@ const Projects = ({ language }) => {
                     title="Workout Generator"
                     description="Each time I got ready for my workout, I would wrote down my list of exercises. I wanted to make my daily life easier and therefore create a generator of sports sessions. This generator draws from my exercise database and loads a custom workout that has a logic in the sequence of exercises."
                     tools={["React", "Redux", "Nodejs", "MongoDB"]}
-                    githubLink="https://github.com/FleurDll/Realestate-client"
+                    githubLink="https://github.com/FleurDll/workoutGenerator"
                     appLink="https://workoutgeneratorfd.herokuapp.com/"
                     img="workoutGenerator"
                     first="image"
