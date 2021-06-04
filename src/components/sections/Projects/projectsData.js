@@ -12,7 +12,7 @@ const projectsData = [
     },
     {
         name: "Workout Generator",
-        frDescription: "Pour me faciliter le quotidien, j'ai voulu créer un générateur de séances de sport qui réponde à mes besoins. Ce générateur récupère des exercices de ma base de données et charge des entraînements sur mesure. Entièrement responsive.",
+        frDescription: "Un site générateur de séance de sport qui récupère des exercices de ma base de données pour charger des entraînements sur mesure. Entièrement responsive.",
         enDescription: "I wanted to make my daily life easier and therefore create a generator of sports sessions that responds perfectly to my needs. This generator draws exercises from a database and loads thoughtful workouts. Fully responsive.",
         tools: ["React", "Redux", "Node.js", "MongoDB"],
         github: "https://github.com/FleurDll/workoutGenerator",
