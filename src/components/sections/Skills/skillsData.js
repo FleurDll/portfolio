@@ -12,7 +12,7 @@ const skillsList = [
         color: COLOR.yellow
     },
     {
-        name: "NodeJS",
+        name: "Node.js",
         code: 20,
         color: COLOR.white
     },

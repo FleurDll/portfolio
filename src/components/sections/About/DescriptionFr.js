@@ -8,7 +8,7 @@ const DescriptionFr = () => {
             <br></br>
             <br></br>
             Avec, à la base, un diplôme en Psychologie, J'ai toujours été <DescriptionSpan>curieuse</DescriptionSpan> d'en apprendre plus sur la programmation informatique.
-            Et voilà comment fin novembre 2020 j'ai commencé à apprendre du Python. J'imagine que cela m'a plu car, depuis ce jour, je n'ai jamais arrêté. Me spécialisant dans la <DescriptionSpan>MERN stack</DescriptionSpan> (MongoDB, Express.js, React.js, Node.js).
+            Et voilà comment fin novembre 2020 j'ai commencé à apprendre du Python. J'imagine que cela m'a plu car, depuis ce jour, je n'ai jamais arrêté. Me spécialisant dans la <DescriptionSpan>MERN stack</DescriptionSpan> (MongoDB, Express, React, Node.js).
             <br></br>
             <br></br>
             Cette nouvelle voie lie mes besoins de <DescriptionSpan>créativité</DescriptionSpan> et de <DescriptionSpan>raisonement logique</DescriptionSpan>.
