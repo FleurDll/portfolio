@@ -14,12 +14,12 @@ const About = ({ scrollDirection, language }) => {
             <AboutWrapper>
                 <AboutTexts>
                     <TextsTop>
-                        <AboutTitle>{language ? "Enthusiastic self-taught developer," : "Autodidacte passionnée,"}</AboutTitle>
+                        <AboutTitle>{language ? "Enthusiastic self-taught developer," : "Développeuse Web Autodidacte,"}</AboutTitle>
                     </TextsTop>
                     <TextsBottom>
                         {language ? <DescriptionEn /> : <DescriptionFr />}
                     </TextsBottom>
-                    <ResumeButton href={Pdf} target="_blank" rel="noreferrer">Resume</ResumeButton>
+                    <ResumeButton href={Pdf} target="_blank" rel="noreferrer">{language ? "Resume" : "CV"}</ResumeButton>
                 </AboutTexts>
                 <AboutTimeline>
                     <TimelineCountries>

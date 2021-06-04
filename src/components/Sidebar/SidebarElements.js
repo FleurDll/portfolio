@@ -48,7 +48,7 @@ export const SidebarMenu = styled.ul`
 `;
 
 const styledItemSidebar = css`
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
@@ -73,5 +73,18 @@ export const SidebarAnchor = styled.a`
 `;
 
 export const SidebarLanguage = styled.p`
-    ${styledItemSidebar};
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+    color: ${COLOR.grey};
+    cursor: pointer;
+
+    &:hover {
+        transition: 0.2s ease-in-out;
+        color: #7BC8F0;
+    }
 `;

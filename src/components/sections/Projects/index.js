@@ -41,7 +41,7 @@ const Projects = ({ language }) => {
                 <ProjectCard
                     title="Flags Game"
                     description="A quiz that tests your flags knowledge. It boosts you to become better thanks to scores and ranking. You can challenge your friends in specific categories: Europe, Africa, Asia, Oceania, Americas. Or in the World category for the bravest (250 countries !). It is also a way for me to share my love for memorizing country information (flags, location, ...)."
-                    tools={["React", "Redux", "HarperDB", "API"]}
+                    tools={["React", "Redux", "HarperDB", "API", "OAuth"]}
                     githubLink="https://github.com/FleurDll/FlagsGame-Redux"
                     appLink="https://flags-game-fd.netlify.app/#/"
                     img="flagsGame"

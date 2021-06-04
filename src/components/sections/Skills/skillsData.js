@@ -42,8 +42,8 @@ const skillsList = [
         color: COLOR.white
     },
     {
-        name: "HTML",
-        code: 16,
+        name: "css",
+        code: 25,
         color: COLOR.grey
     },
     {
@@ -73,15 +73,16 @@ const skillsList = [
         color: COLOR.grey
     },
     {
-        name: "css",
+        name: "API",
         code: 25,
-        color: COLOR.grey
+        color: COLOR.white
     },
     {
         name: "Redux",
         code: 40,
         color: COLOR.yellow
-    }
+    },
+
 ];
 
 export default skillsList;

@@ -13,7 +13,7 @@ const Hero = ({ scrollNav, language }) => {
         }
         :
         text = {
-            first: "Salut, moi c'est", seconde: "Fleur,", third: "une développeuse Fullstack.", fourth: "Je m'amuse à imaginer et créer des choses en codant."
+            first: "Je m'appelle", seconde: "Fleur,", third: "je suis développeuse Fullstack.", fourth: "Je m'amuse à imaginer et créer des choses en codant."
         }
 
     return (
