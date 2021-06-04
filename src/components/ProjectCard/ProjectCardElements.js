@@ -58,6 +58,7 @@ export const ProjectLink = styled.a``;
 export const ProjectImageWrapper = styled.a`
     grid-area: col2;
     max-width: 450px;
+    max-height: 280px;
     justify-self: center;
     box-shadow: ${COLOR.shadow};
     position: relative;
