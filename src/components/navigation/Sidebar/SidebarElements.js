@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
-import { COLOR } from "../../stylesConstantes";
+import { COLOR } from "../../../stylesConstantes";
 
 export const SidebarContainer = styled.aside`
     display: grid;

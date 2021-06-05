@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { HomeContainer } from "./HomeElements";
-import Navbar from "../Navbar";
+import Navbar from "../navigation/Navbar";
 import Hero from "../sections/Hero";
 import About from "../sections/About";
 import Contact from "../sections/Contact";
@@ -8,7 +8,7 @@ import Cursor from '../Cursor';
 import Projects from '../sections/Projects';
 import SocialInfo from '../Socialnfo';
 import Footer from '../sections/Footer';
-import Sidebar from '../Sidebar';
+import Sidebar from '../navigation/Sidebar';
 
 const Home = ({ emailJSKey }) => {
     const [scrollDirection, setScrollDirection] = useState("");

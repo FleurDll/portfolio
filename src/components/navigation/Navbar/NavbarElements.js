@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { SIZE, COLOR } from "../../stylesConstantes";
+import { SIZE, COLOR } from "../../../stylesConstantes";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import { CgMenuRight } from "react-icons/cg";
