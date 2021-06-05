@@ -9,11 +9,11 @@ const Hero = ({ scrollNav, language }) => {
 
     language ?
         text = {
-            first: "Hi, I'm", seconde: "Fleur,", third: "a Fullstack developer.", fourth: "Just me having fun creating things with code."
+            first: "Hi, I'm", seconde: "Fleur,", third: "a Fullstack developer.", fourth: "Just me having fun imaging and creating things."
         }
         :
         text = {
-            first: "Salut ! Je m'appelle", seconde: "Fleur,", third: "je suis développeuse Fullstack.", fourth: "Je m'amuse à imaginer et créer des choses par le code."
+            first: "Salut ! Je m'appelle", seconde: "Fleur,", third: "je suis développeuse Fullstack.", fourth: "Je m'amuse à imaginer et créer des choses."
         }
 
     return (

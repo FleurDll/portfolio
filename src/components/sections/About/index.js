@@ -14,7 +14,7 @@ const About = ({ scrollDirection, language }) => {
             <AboutWrapper>
                 <AboutTexts>
                     <TextsTop>
-                        <AboutTitle>{language ? "Enthusiastic self-taught developer," : "Développeuse Web Autodidacte,"}</AboutTitle>
+                        <AboutTitle>{language ? "Enthusiastic self-taught developer," : "Développeuse autodidacte,"}</AboutTitle>
                     </TextsTop>
                     <TextsBottom>
                         {language ? <DescriptionEn /> : <DescriptionFr />}

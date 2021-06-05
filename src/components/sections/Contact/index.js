@@ -73,7 +73,7 @@ const Contact = ({ emailJSKey, language }) => {
     return (
         <ContactContainer id="contact">
             <ContactPresentation>Contact</ContactPresentation>
-            <ContactTitle> {language ? "Let's get in touch!" : "Contactez moi !"} </ContactTitle>
+            <ContactTitle>{language ? "Let's get in touch!" : "Contactez moi !"}</ContactTitle>
             <ContactForm>
                 <div id="form" className="ui form big">
                     <ContactNameMail>
@@ -81,7 +81,7 @@ const Contact = ({ emailJSKey, language }) => {
                             <div className="field" >
                                 <ContactInput
                                     type="text"
-                                    placeholder="Name"
+                                    placeholder={language ? "Name" : "Nom"}
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                 />
@@ -107,18 +107,18 @@ const Contact = ({ emailJSKey, language }) => {
                     </ContactInputMessage>
                     {!loading ?
                         <ContactButton onClick={hangleSubmit}>
-                            Send
-                    </ContactButton>
+                            {language ? "Send" : "Envoyer"}
+                        </ContactButton>
                         :
                         <BounceLoader color="#fffa64" loading={loading} css={override} size={50} />
                     }
                     <div className="ui success message small">
-                        <div className="header">Message send!</div>
-                        <p>You'll soon receive a response.</p>
+                        <div className="header">{language ? "Message send!" : "Message envoyé !"}</div>
+                        <p>{language ? "You'll soon receive a response." : "Je vous repondrai au plus vite."}</p>
                     </div>
 
                     <div className="ui error message small">
-                        <div className="header">Please fill in all the fields</div>
+                        <div className="header">{language ? "Please fill in all the fields" : "Merci de remplir tous les champs"}</div>
                     </div>
                 </div>
             </ContactForm>
