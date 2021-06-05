@@ -1,10 +1,8 @@
 import React from 'react';
 import { FooterContainer, CopyRight, CopyRightIcon, SocialMediaInfo, GithubIcon, SocialItem, EmailIcon, LinkedInIcon } from "./FooterElements";
 
-const Footer = () => {
-
+const Footer = ({ language }) => {
     const currentYear = new Date().getFullYear();
-
 
     return (
         <FooterContainer>
@@ -13,7 +11,7 @@ const Footer = () => {
                 <SocialItem target="_blank" href="https://github.com/FleurDll"><GithubIcon /></SocialItem>
                 <SocialItem target="_blank" href="mailto: fleur.dalle@hotmail.com?subject = Portfolio"><EmailIcon /></SocialItem>
             </SocialMediaInfo>
-            <CopyRight>Fleur Dalle<CopyRightIcon />{currentYear} All rights reserved.</CopyRight>
+            <CopyRight>Fleur Dalle<CopyRightIcon />{currentYear} {language ? "All rights reserved." : "Tous droits réservés."} </CopyRight>
         </FooterContainer>
     );
 };

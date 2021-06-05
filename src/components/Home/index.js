@@ -60,7 +60,7 @@ const Home = ({ emailJSKey }) => {
                 <Projects language={language} />
                 <Contact emailJSKey={emailJSKey} language={language} />
                 {screenWidth > 768 && <Cursor />}
-                <Footer />
+                <Footer language={language} />
             </HomeContainer>
             <SocialInfo />
         </>
