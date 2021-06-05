@@ -51,6 +51,7 @@ export const ContactNameMail = styled.div`
 `;
 
 export const ContactInput = styled.input`
+    ${'' /* background: #121212 !important; */}
 
     @media screen and (max-width: 600px) {
         width: 350px !important;
