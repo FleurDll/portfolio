@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from "../../../documents/CV-QC-FD.pdf";
+import Pdf from "../../../documents/CV-FD.pdf";
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarAnchor, SidebarLanguage } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle, language, setLanguage }) => {

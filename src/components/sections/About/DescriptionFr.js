@@ -11,10 +11,10 @@ const DescriptionFr = () => {
             Et voilà comment fin novembre 2020, j'ai commencé à apprendre Python. J'imagine que cela m'a plu car, depuis ce jour, je n'ai jamais arrêté. Me spécialisant dans la <DescriptionSpan>MERN stack</DescriptionSpan> (MongoDB, Express, React, Node.js).
             <br></br>
             <br></br>
-            Cette nouvelle voie lie mon côté <DescriptionSpan>créatif</DescriptionSpan> et <DescriptionSpan>logique</DescriptionSpan>. Je pousse toujours plus loin mon apprentissage. Bref, en résumé, je m'<DescriptionSpan>amuse</DescriptionSpan> beaucoup.
+            Cette nouvelle voie me permet de lier mes côtés <DescriptionSpan>logique</DescriptionSpan> et <DescriptionSpan>créatif</DescriptionSpan>. Je pousse toujours plus loin mon apprentissage. Bref, en résumé, je m'<DescriptionSpan>amuse</DescriptionSpan> beaucoup.
             <br></br>
             <br></br>
-            Si je ne suis pas en train de coder devant mon écran, vous pouvez me trouver en train d'être promenée par mon chien Hilda, sur mon vélo ou escaladant des maisons dans un des Assassin's Creed.
+            Si je ne suis pas en train de coder, vous pouvez me trouver en train d'être promenée par mon chien Hilda, sur mon vélo ou escaladant des maisons dans un des Assassin's Creed.
         </AboutDescription>
     );
 };

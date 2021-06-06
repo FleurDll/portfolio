@@ -1,8 +1,8 @@
 const projectsData = [
     {
         name: "Real Estate",
-        frDescription: "Site vitrine pour une agent immobilière. Vous pouvez trouver les services qu'elle propose et tous les biens qu'elle vend. J'ai construis ce site avec une partie admin où ma cliente peut modifier chaque texte, photos et ajouter/supprimer des propriétés. Entièrement responsive.",
-        enDescription: "Showcase website for a real estate agent. You can find what services she offers and all the properties that she sells. I build this website with an admin part where my client can change each text, photos and add / remove properties. Fully responsive.",
+        frDescription: "Site vitrine pour une agent immobilière. Vous pouvez trouver les services et les biens qu'elle propose. Ce site est construit avec une partie administrateur où ma cliente peut modifier le contenu à sa guise de façon autonome. Entièrement responsive.",
+        enDescription: "Showcase website for a real estate agent. You can find what services she offers and all the properties that she sells. This website is built with an administrator part where my client can modify the content independently. Fully responsive.",
         tools: ["React", "Sanity", "Styled-Components"],
         github: "https://github.com/FleurDll/Realestate-client",
         website: "https://www.ameliedufour.com/",
@@ -12,7 +12,7 @@ const projectsData = [
     },
     {
         name: "Workout Generator",
-        frDescription: "Un site générateur de séances de sport qui récupère les exercices de la base de données pour créer des entraînements sur mesure. Il y a aussi la possibilité, pour les administrateurs, d'ajouter et supprimer un exercise. Entièrement responsive.",
+        frDescription: "Un site générateur de séances de sport qui récupère les exercices de la base de données pour créer des entraînements sur mesure. Pour les administrateurs, il y a possiblité d'ajouter et de supprimer un exercise. Entièrement responsive.",
         enDescription: "I wanted to make my daily life easier and therefore create a generator of sports sessions that would create my perfect workout. This generator draws exercises from a database and loads thoughtful workouts. Fully responsive.",
         tools: ["React", "Redux", "Node.js", "MongoDB"],
         github: "https://github.com/FleurDll/workoutGenerator",
@@ -34,8 +34,8 @@ const projectsData = [
     },
     {
         name: "How's the Weather?",
-        frDescription: "Ce site vous renseigne sur la météo actuelle et à venir. Il détecte votre localisation et/ou vous permet de rechercher des villes. Il a un darkmode thème et les langues anglaise et française sont disponibles. Il y a également une base de données qui stocke toutes les villes recherchées. Entièrement responsive.",
-        enDescription: "Fullstack website that gives current and forcast weather. It detects your location and / or allows you to search for cities. It has a darkmode theme and both English and French languages are available. There is also a database that stores all the searched cities. Fully responsive.",
+        frDescription: "Ce site vous indique la météo actuelle et celle à venir. Il détecte votre localisation et vous permet de rechercher des villes. Il vous est possible de changer le thème (darkmode/lightmode) et la langue (français/anglais). Il y a également une base de données qui stocke toutes les villes recherchées. Entièrement responsive.",
+        enDescription: "Fullstack website that gives current and forcast weather. It detects your location and allows you to search for cities. You can change the theme (darkmode/lightmode) adn the language (english/french). There is also a database that stores all the searched cities. Fully responsive.",
         tools: ["JavaScript", "Node.js", "MongoDB", "API"],
         github: "https://github.com/FleurDll/Weather",
         website: "https://howstheweatherapp.herokuapp.com/",
