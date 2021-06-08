@@ -1,7 +1,7 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import { animateScroll as scroll } from "react-scroll";
-import Pdf from "../../../documents/CV-FD.pdf";
+import Pdf from "../../../documents/CV-QC.pdf";
 import { Nav, NavContainer, NavLogo, NavMenu, NavItem, LanguageButton, NavLinkS, MobileIcon, NavAnchor } from "./NavbarElements";
 
 

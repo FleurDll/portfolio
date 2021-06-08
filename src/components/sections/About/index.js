@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from "../../../documents/CV-FD.pdf";
+import Pdf from "../../../documents/CV-QC.pdf";
 import Skills from "../Skills";
 import Years from "./Years";
 import Countries from "./Countries";
