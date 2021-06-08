@@ -17,7 +17,7 @@ const Projects = ({ language }) => {
 
     const renderedProjects = projectsData.map((project, index) => {
         return (
-            <>
+            <div>
                 {index === 0 && <ProjectsTitle>{language ? "Professional" : "Professionnels"}</ProjectsTitle>}
                 {index === 1 && <ProjectsTitle>{language ? "Personal" : "Personnels"}</ProjectsTitle>}
                 <ProjectCard
@@ -29,7 +29,7 @@ const Projects = ({ language }) => {
                     img={project.img}
                     first={project.first}
                 />
-            </>
+            </div>
         );
     });
 

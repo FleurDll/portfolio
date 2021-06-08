@@ -33,7 +33,7 @@ const About = ({ scrollDirection, language }) => {
                     </TimeLineBar>
                     <TimelineYears>
                         <Countries
-                            countries={language ? ["Milan", "Sydney", "Zurich", "Copenhagen", "Warsaw", "Lille", "Brussels", "Montreal"] : ["Milan", "Sydney", "Zurich", "Copenhague", "Varsovie", "Lille", "Bruxelles", "Montreal"]}
+                            countries={language ? ["Milan", "Sydney", "Zurich", "Copenhagen", "Warsaw", "Lille", "Brussels", "Montreal"] : ["Milan", "Sydney", "Zurich", "Copenhague", "Varsovie", "Lille", "Bruxelles", "Montréal"]}
                         />
                     </TimelineYears>
                 </AboutTimeline>

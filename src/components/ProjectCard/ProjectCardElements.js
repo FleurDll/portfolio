@@ -26,6 +26,10 @@ export const ProjectTitle = styled.a`
     font-weight: bold;
     letter-spacing: 3px;
     text-decoration: none;
+
+    &:hover {
+        color: ${COLOR.white};
+    }
 `;
 
 export const ProjectDescription = styled.p`

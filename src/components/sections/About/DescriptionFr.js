@@ -14,7 +14,7 @@ const DescriptionFr = () => {
             Cette nouvelle voie me permet de lier mes côtés <DescriptionSpan>logique</DescriptionSpan> et <DescriptionSpan>créatif</DescriptionSpan>. Je pousse toujours plus loin mon apprentissage. Bref, en résumé, je m'<DescriptionSpan>amuse</DescriptionSpan> beaucoup.
             <br></br>
             <br></br>
-            Si je ne suis pas en train de coder, vous pouvez me trouver en train d'être promenée par mon chien Hilda, sur mon vélo ou escaladant des maisons dans un des Assassin's Creed.
+            Si je ne suis pas en train de coder, vous pouvez me trouver en train d'être promenée par mon chien Hilda, sur mon vélo ou escaladant des maisons dans Assassin's Creed.
         </AboutDescription>
     );
 };
