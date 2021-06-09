@@ -1,7 +1,7 @@
 const projectsData = [
     {
         name: "Real Estate",
-        frDescription: "Site vitrine pour une agent immobilière. Vous pouvez trouver les services et les biens qu'elle propose. Ce site est construit avec une partie administrateur où ma cliente peut en modifier le contenu à sa guise de façon autonome. Entièrement responsive.",
+        frDescription: "Site vitrine pour une agent immobilière. Vous pouvez trouver les services et les biens qu'elle propose. Ce site est construit avec une partie administrateur où ma cliente peut y modifier le contenu à sa guise de façon autonome. Entièrement responsive.",
         enDescription: "Showcase website for a real estate agent. You can find what services she offers and all the properties that she sells. This website is built with an administrator part where my client can modify the content independently. Fully responsive.",
         tools: ["React", "Sanity", "Styled-Components"],
         github: "https://github.com/FleurDll/Realestate-client",
