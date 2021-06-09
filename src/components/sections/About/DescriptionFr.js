@@ -4,11 +4,11 @@ import { AboutDescription, DescriptionSpan } from "./AboutElements";
 const DescriptionFr = () => {
     return (
         <AboutDescription>
-            J'ai 25ans et je suis française, bien que j'ai grandi dans différents pays. Je suis actuellement en train de préparer ma prochaine destination : le <DescriptionSpan>Canada</DescriptionSpan>.
+            J'ai 25ans et je suis française, bien qu'ayant grandi dans différents pays. Je suis actuellement en train de préparer ma prochaine destination : le <DescriptionSpan>Canada</DescriptionSpan>.
             <br></br>
             <br></br>
             Avec, à la base, un diplôme en Psychologie, j'ai toujours été <DescriptionSpan>curieuse</DescriptionSpan> d'en apprendre plus sur la programmation informatique.
-            Et voilà comment fin novembre 2020, j'ai commencé à apprendre Python. J'imagine que cela m'a plu car, depuis ce jour, je n'ai jamais arrêté, oups. Me spécialisant dans la <DescriptionSpan>MERN stack</DescriptionSpan> (MongoDB, Express, React, Node.js).
+            Et voilà comment fin novembre 2020, j'ai commencé à apprendre Python. J'imagine que cela m'a plu car, depuis ce jour, je n'ai jamais arrêté ! Me spécialisant dans la <DescriptionSpan>MERN stack</DescriptionSpan> (MongoDB, Express, React, Node.js).
             <br></br>
             <br></br>
             Cette nouvelle voie me permet de lier mes côtés <DescriptionSpan>logique</DescriptionSpan> et <DescriptionSpan>créatif</DescriptionSpan>. Je pousse toujours plus loin mon apprentissage. Bref, en résumé, je m'<DescriptionSpan>amuse</DescriptionSpan> beaucoup.
