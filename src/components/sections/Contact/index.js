@@ -73,7 +73,7 @@ const Contact = ({ emailJSKey, language }) => {
     return (
         <ContactContainer id="contact">
             <ContactPresentation>Contact</ContactPresentation>
-            <ContactTitle>{language ? "Let's get in touch!" : "Contactez moi !"}</ContactTitle>
+            <ContactTitle>{language ? "Let's get in touch!" : "N'hésitez pas à me contacter :"}</ContactTitle>
             <ContactForm>
                 <div id="form" className="ui form big">
                     <ContactNameMail>

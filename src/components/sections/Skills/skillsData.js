@@ -42,7 +42,7 @@ const skillsList = [
         color: COLOR.white
     },
     {
-        name: "css",
+        name: "CSS3",
         code: 25,
         color: COLOR.grey
     },

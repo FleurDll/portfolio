@@ -4,7 +4,7 @@ import { AboutDescription, DescriptionSpan} from "./AboutElements";
 const DescriptionEn = () => {
     return (
         <AboutDescription>
-            I'm a 25 years old <DescriptionSpan>web developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently preparing for my future destination: <DescriptionSpan>Canada</DescriptionSpan>.
+            I'm a 25 years old <DescriptionSpan>software developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently preparing for my future destination: <DescriptionSpan>Canada</DescriptionSpan>.
             <br></br>
             <br></br>
             Starting with a psychology diploma, I've always been curious to learn more about computer science.
