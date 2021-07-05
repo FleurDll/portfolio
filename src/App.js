@@ -1,5 +1,6 @@
 import React from "react";
 import ReactGA from 'react-ga';
+import { useGA4React } from "ga-4-react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 
@@ -13,6 +14,10 @@ const emailJSKey = {
 };
 
 const App = () => {
+
+  const ga = useGA4React();
+  console.log(ga);
+
   return (
     <BrowserRouter>
       <Switch>
