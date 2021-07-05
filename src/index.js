@@ -4,7 +4,7 @@ import GA4React from "ga-4-react";
 import './index.css';
 import App from './App';
 
-const ga4react = new GA4React("G-1JXXXXX");
+const ga4react = new GA4React("G-FQMJ7FQ77X");
 
 (async () => {
     await ga4react.initialize();
