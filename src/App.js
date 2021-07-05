@@ -1,6 +1,10 @@
 import React from "react";
+import ReactGA from 'react-ga';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
+
+ReactGA.initialize('UA-201204691-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const emailJSKey = {
   template: process.env.REACT_APP_EMAILJS_TEMPLATE,
