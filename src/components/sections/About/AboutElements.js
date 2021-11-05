@@ -93,36 +93,20 @@ export const TimeLineBar = styled.div`
     align-items: center;
 `;
 
-export const TimeLineStop = styled.div`
-    ${'' /* height: 2px;
-    width: 25px;
-    background: ${COLOR.yellow}; */}
-    
-
-    ${'' /* width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  
-  border-top: 20px solid ${COLOR.yellow}; */}
-`;
-
 const styledAnimation = keyframes`
     0% {
         height: 0px;
     }
     100% {
-        height: 560px;
+        height: 635px;
     }
 `;
 
 export const TimelineAnimation = styled.div`
     background: ${COLOR.yellow};
-    height: 560px;
+    height: 635px;
     width: 12px;
     margin: 0 20px;
-    ${'' /* border-top-left-radius: 40px;
-    border-top-right-radius: 40px; */}
     border-radius: 40px;
     animation: ${({ scrollDirection }) => scrollDirection === "down" && css`${styledAnimation} 5s ease-in-out`};
     animation: ${({ scrollDirection }) => scrollDirection === "up" && css`${styledAnimation} 5s ease-in-out`};

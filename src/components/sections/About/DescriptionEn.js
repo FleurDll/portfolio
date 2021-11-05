@@ -1,10 +1,11 @@
 import React from 'react';
-import { AboutDescription, DescriptionSpan} from "./AboutElements";
+import { AboutDescription, DescriptionSpan } from "./AboutElements";
 
-const DescriptionEn = () => {
+const DescriptionEn = ({ age }) => {
+
     return (
         <AboutDescription>
-            I'm a 25 years old <DescriptionSpan>software developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently preparing for my future destination: <DescriptionSpan>Canada</DescriptionSpan>.
+            I'm a {age} years old <DescriptionSpan>software developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently working in Montreal, Canada, at <a href="https://mphase.ca/"><DescriptionSpan>mPhase</DescriptionSpan></a>.
             <br></br>
             <br></br>
             Starting with a diploma in psychology, I've always been curious to learn more about computer science.

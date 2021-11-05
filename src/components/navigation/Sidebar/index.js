@@ -1,6 +1,6 @@
 import React from 'react';
-import Pdf from "../../../documents/CV-portfolio-FLEURDALLE.pdf";
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarAnchor, SidebarLanguage } from "./SidebarElements";
+// import Pdf from "../../../documents/CV-portfolio-FLEURDALLE.pdf";
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarLanguage } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle, language, setLanguage }) => {
     let text;
@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggle, language, setLanguage }) => {
                     <SidebarLink to="about" onClick={toggle}>{text.first}</SidebarLink>
                     <SidebarLink to="projects" onClick={toggle}>{text.seconde}</SidebarLink>
                     <SidebarLink to="contact" onClick={toggle}>{text.third}</SidebarLink>
-                    <SidebarAnchor href={Pdf} target="_blank" rel="noreferrer">{text.fourth}</SidebarAnchor>
+                    {/* <SidebarAnchor href={Pdf} target="_blank" rel="noreferrer">{text.fourth}</SidebarAnchor> */}
                     <SidebarLanguage onClick={() => setLanguage(!language)}>{text.fith}</SidebarLanguage>
                 </SidebarMenu>
             </SidebarWrapper>

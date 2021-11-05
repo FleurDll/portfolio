@@ -1,8 +1,8 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
 import { animateScroll as scroll } from "react-scroll";
-import Pdf from "../../../documents/CV-portfolio-FLEURDALLE.pdf";
-import { Nav, NavContainer, NavLogo, NavMenu, NavItem, LanguageButton, NavLinkS, MobileIcon, NavAnchor } from "./NavbarElements";
+// import Pdf from "../../../documents/CV-portfolio-FLEURDALLE.pdf";
+import { Nav, NavContainer, NavLogo, NavMenu, NavItem, LanguageButton, NavLinkS, MobileIcon } from "./NavbarElements";
 
 
 const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
@@ -42,11 +42,11 @@ const Navbar = ({ toggle, scrollDirection, language, setLanguage }) => {
                             <NavLinkS to="contact" smooth={true} duration={500} spy={true} exact="true">{text.third}</NavLinkS>
                         </NavItem>
                     </FadeIn>
-                    <FadeIn transitionDuration={1700}>
+                    {/* <FadeIn transitionDuration={1700}>
                         <NavItem>
                             <NavAnchor href={Pdf} target="_blank" rel="noreferrer">{text.fourth}</NavAnchor>
                         </NavItem>
-                    </FadeIn>
+                    </FadeIn> */}
                     <FadeIn transitionDuration={1700}>
                         <NavItem>
                             <LanguageButton onClick={() => setLanguage(!language)}>{text.fith}</LanguageButton>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { AboutDescription, DescriptionSpan } from "./AboutElements";
 
-const DescriptionFr = () => {
+const DescriptionFr = ({ age }) => {
     return (
         <AboutDescription>
-            J'ai 25ans et je suis française, bien qu'ayant grandi dans différents pays. Je suis actuellement en train de préparer ma prochaine destination : le <DescriptionSpan>Canada</DescriptionSpan>.
+            J'ai {age} ans et je suis française, bien qu'ayant grandi dans différents pays. Je travaille actuellement à Montréal, Canada, chez <a href="https://mphase.ca/"><DescriptionSpan>mPhase</DescriptionSpan></a>.
             <br></br>
             <br></br>
             Avec, à la base, un diplôme en Psychologie, j'ai toujours été <DescriptionSpan>curieuse</DescriptionSpan> d'en apprendre plus sur la programmation informatique.
