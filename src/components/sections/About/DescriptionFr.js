@@ -4,7 +4,7 @@ import { AboutDescription, DescriptionSpan } from "./AboutElements";
 const DescriptionFr = ({ age }) => {
     return (
         <AboutDescription>
-            J'ai {age} ans et je suis française, bien qu'ayant grandi dans différents pays. Je travaille actuellement à Montréal, Canada, chez <a href="https://mphase.ca/"><DescriptionSpan>mPhase</DescriptionSpan></a>.
+            J'ai {age} ans et je suis française, bien qu'ayant grandi dans différents pays. Je travaille actuellement à Montréal, Canada, chez <a href="https://mphase.ca/" target="_blank" rel="noreferrer"><DescriptionSpan>mPhase</DescriptionSpan></a>.
             <br></br>
             <br></br>
             Avec, à la base, un diplôme en Psychologie, j'ai toujours été <DescriptionSpan>curieuse</DescriptionSpan> d'en apprendre plus sur la programmation informatique.

@@ -5,7 +5,7 @@ const DescriptionEn = ({ age }) => {
 
     return (
         <AboutDescription>
-            I'm a {age} years old <DescriptionSpan>software developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently working in Montreal, Canada, at <a href="https://mphase.ca/"><DescriptionSpan>mPhase</DescriptionSpan></a>.
+            I'm a {age} years old <DescriptionSpan>software developer</DescriptionSpan> from France, although I grew up between different countries. I'm currently working in Montreal, Canada, at <a href="https://mphase.ca/" target="_blank" rel="noreferrer"><DescriptionSpan>mPhase</DescriptionSpan></a>.
             <br></br>
             <br></br>
             Starting with a diploma in psychology, I've always been curious to learn more about computer science.
