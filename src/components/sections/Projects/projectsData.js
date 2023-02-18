@@ -38,7 +38,7 @@ const projectsData = [
         enDescription: "Fullstack website that gives current and forcast weather. It detects your location and allows you to search for cities. You can change the theme (darkmode/lightmode) and the language (english/french). There is also a database that stores all the searched cities. Fully responsive.",
         tools: ["JavaScript", "Node.js", "MongoDB", "API"],
         github: "https://github.com/FleurDll/Weather",
-        website: "https://howstheweatherapp.herokuapp.com/",
+        website: "https://hows-the-weather-app.onrender.com/",
         img: "meteo",
         first: "image",
         type: "personal"
